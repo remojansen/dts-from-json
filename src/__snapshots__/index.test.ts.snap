@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`jsondts Custom root 1`] = `""`;
+
+exports[`jsondts Custom root 2`] = `
+"interface USSenators {
+  meta: Meta;
+  items: Item[];
+}
+interface Item {
+  caucus: null | string;
+  congress_numbers: number[];
+  current: boolean;
+  description: string;
+  district: null;
+  enddate: string;
+  extra: Extra;
+  leadership_title: null | string;
+  party: string;
+  person: Person;
+  phone: string;
+  role_type: string;
+  role_type_label: string;
+  senator_class: string;
+  senator_class_label: string;
+  senator_rank: string;
+  senator_rank_label: string;
+  startdate: string;
+  state: string;
+  title: string;
+  title_long: string;
+  website: string;
+}
+interface Person {
+  bioguideid: string;
+  birthday: string;
+  cspanid: null | number;
+  fediverse_webfinger: null;
+  firstname: string;
+  gender: string;
+  gender_label: string;
+  lastname: string;
+  link: string;
+  middlename: string;
+  name: string;
+  namemod: string;
+  nickname: string;
+  osid: null | string;
+  pvsid: null;
+  sortname: string;
+  twitterid: null | string;
+  youtubeid: null | string;
+}
+interface Extra {
+  address: string;
+  contact_form: string;
+  office: string;
+  rss_url?: string;
+  party_affiliations?: Partyaffiliation[];
+  'end-type'?: string;
+  how?: string;
+}
+interface Partyaffiliation {
+  end: string;
+  party: string;
+  start: string;
+  caucus?: string;
+}
+interface Meta {
+  limit: number;
+  offset: number;
+  total_count: number;
+}
+"
+`;
+
+exports[`jsondts JSON URL to dts 1`] = `""`;
+
+exports[`jsondts JSON URL to dts 2`] = `
+"interface Pokedex {
+  pokemon: Pokemon[];
+}
+interface Pokemon {
+  id: number;
+  num: string;
+  name: string;
+  img: string;
+  type: string[];
+  height: string;
+  weight: string;
+  candy: string;
+  candy_count?: number;
+  egg: string;
+  spawn_chance: number;
+  avg_spawns: number;
+  spawn_time: string;
+  multipliers: number[] | null;
+  weaknesses: string[];
+  next_evolution?: Nextevolution[];
+  prev_evolution?: Nextevolution[];
+}
+interface Nextevolution {
+  num: string;
+  name: string;
+}
+"
+`;
+
+exports[`jsondts JSON path to dts (A) 1`] = `""`;
+
+exports[`jsondts JSON path to dts (A) 2`] = `
+"interface Senators {
+  meta: Meta;
+  items: Item[];
+}
+interface Item {
+  caucus: null | string;
+  congress_numbers: number[];
+  current: boolean;
+  description: string;
+  district: null;
+  enddate: string;
+  extra: Extra;
+  leadership_title: null | string;
+  party: string;
+  person: Person;
+  phone: string;
+  role_type: string;
+  role_type_label: string;
+  senator_class: string;
+  senator_class_label: string;
+  senator_rank: string;
+  senator_rank_label: string;
+  startdate: string;
+  state: string;
+  title: string;
+  title_long: string;
+  website: string;
+}
+interface Person {
+  bioguideid: string;
+  birthday: string;
+  cspanid: null | number;
+  fediverse_webfinger: null;
+  firstname: string;
+  gender: string;
+  gender_label: string;
+  lastname: string;
+  link: string;
+  middlename: string;
+  name: string;
+  namemod: string;
+  nickname: string;
+  osid: null | string;
+  pvsid: null;
+  sortname: string;
+  twitterid: null | string;
+  youtubeid: null | string;
+}
+interface Extra {
+  address: string;
+  contact_form: string;
+  office: string;
+  rss_url?: string;
+  party_affiliations?: Partyaffiliation[];
+  'end-type'?: string;
+  how?: string;
+}
+interface Partyaffiliation {
+  end: string;
+  party: string;
+  start: string;
+  caucus?: string;
+}
+interface Meta {
+  limit: number;
+  offset: number;
+  total_count: number;
+}
+"
+`;
+
+exports[`jsondts JSON path to dts (B) 1`] = `""`;
+
+exports[`jsondts JSON path to dts (B) 2`] = `
+"interface Pokedex {
+  pokemon: Pokemon[];
+}
+interface Pokemon {
+  id: number;
+  num: string;
+  name: string;
+  img: string;
+  type: string[];
+  height: string;
+  weight: string;
+  candy: string;
+  candy_count?: number;
+  egg: string;
+  spawn_chance: number;
+  avg_spawns: number;
+  spawn_time: string;
+  multipliers: number[] | null;
+  weaknesses: string[];
+  next_evolution?: Nextevolution[];
+  prev_evolution?: Nextevolution[];
+}
+interface Nextevolution {
+  num: string;
+  name: string;
+}
+"
+`;
+
+exports[`jsondts JSON path to dts (C) 1`] = `""`;
+
+exports[`jsondts JSON path to dts (C) 2`] = `
+"interface NobelPrize {
+  prizes: Prize[];
+}
+interface Prize {
+  year: string;
+  category: string;
+  laureates?: Laureate[];
+  overallMotivation?: string;
+}
+interface Laureate {
+  id: string;
+  firstname: string;
+  surname?: string;
+  motivation: string;
+  share: string;
+}
+"
+`;
+
+exports[`jsondts Use type keyword 1`] = `""`;
+
+exports[`jsondts Use type keyword 2`] = `
+"type Senators = {
+  meta: Meta;
+  items: Item[];
+}
+type Item = {
+  caucus: null | string;
+  congress_numbers: number[];
+  current: boolean;
+  description: string;
+  district: null;
+  enddate: string;
+  extra: Extra;
+  leadership_title: null | string;
+  party: string;
+  person: Person;
+  phone: string;
+  role_type: string;
+  role_type_label: string;
+  senator_class: string;
+  senator_class_label: string;
+  senator_rank: string;
+  senator_rank_label: string;
+  startdate: string;
+  state: string;
+  title: string;
+  title_long: string;
+  website: string;
+}
+type Person = {
+  bioguideid: string;
+  birthday: string;
+  cspanid: null | number;
+  fediverse_webfinger: null;
+  firstname: string;
+  gender: string;
+  gender_label: string;
+  lastname: string;
+  link: string;
+  middlename: string;
+  name: string;
+  namemod: string;
+  nickname: string;
+  osid: null | string;
+  pvsid: null;
+  sortname: string;
+  twitterid: null | string;
+  youtubeid: null | string;
+}
+type Extra = {
+  address: string;
+  contact_form: string;
+  office: string;
+  rss_url?: string;
+  party_affiliations?: Partyaffiliation[];
+  'end-type'?: string;
+  how?: string;
+}
+type Partyaffiliation = {
+  end: string;
+  party: string;
+  start: string;
+  caucus?: string;
+}
+type Meta = {
+  limit: number;
+  offset: number;
+  total_count: number;
+}
+"
+`;

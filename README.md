@@ -65,7 +65,7 @@ $ dts-from-json <json-file> --root Senators
  $ dts-from-json <json-file> --types
 ```
 
-### Known limmitations
+### Known limitations
 
 - Using json properties with names that have collisions with other types will cause issues. For example, if you have json that looks like:
 

@@ -1,6 +1,10 @@
 {
   "name": "dts-from-json",
-  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remojansen/dts-from-json.git"
+  },
+  "version": "1.0.1",
   "description": "Command line utility to emit TypeScript type declaration files for JSON files",
   "main": "./dist/index.js",
   "bin": {

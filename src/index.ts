@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import meow from 'meow';
 import { convertJsonToTS } from './core.js';
 import { unexpectedError } from "./error.js";

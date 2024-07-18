@@ -1,6 +1,6 @@
 {
   "name": "dts-from-json",
-  "version": "0.0.4-dev",
+  "version": "1.0.0",
   "description": "Command line utility to emit TypeScript type declaration files for JSON files",
   "main": "./dist/index.js",
   "bin": {

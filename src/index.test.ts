@@ -17,7 +17,7 @@ function testCase(cmd: string) {
     });
 }
 
-describe('jsondts', () => {
+describe('dts-from-json', () => {
 
   test('JSON path to dts (A)', async () => {
     const { stderr, stdout } = await testCase('node ./dist/index.js ./demo/json/senators.json');

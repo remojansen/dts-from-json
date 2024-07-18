@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`jsondts Custom root 1`] = `""`;
+exports[`dts-from-json Custom root 1`] = `""`;
 
-exports[`jsondts Custom root 2`] = `
+exports[`dts-from-json Custom root 2`] = `
 "interface USSenators {
   meta: Meta;
   items: Item[];
@@ -74,9 +74,9 @@ interface Meta {
 "
 `;
 
-exports[`jsondts JSON URL to dts 1`] = `""`;
+exports[`dts-from-json JSON URL to dts 1`] = `""`;
 
-exports[`jsondts JSON URL to dts 2`] = `
+exports[`dts-from-json JSON URL to dts 2`] = `
 "interface Pokedex {
   pokemon: Pokemon[];
 }
@@ -106,9 +106,9 @@ interface Nextevolution {
 "
 `;
 
-exports[`jsondts JSON path to dts (A) 1`] = `""`;
+exports[`dts-from-json JSON path to dts (A) 1`] = `""`;
 
-exports[`jsondts JSON path to dts (A) 2`] = `
+exports[`dts-from-json JSON path to dts (A) 2`] = `
 "interface Senators {
   meta: Meta;
   items: Item[];
@@ -180,9 +180,9 @@ interface Meta {
 "
 `;
 
-exports[`jsondts JSON path to dts (B) 1`] = `""`;
+exports[`dts-from-json JSON path to dts (B) 1`] = `""`;
 
-exports[`jsondts JSON path to dts (B) 2`] = `
+exports[`dts-from-json JSON path to dts (B) 2`] = `
 "interface Pokedex {
   pokemon: Pokemon[];
 }
@@ -212,9 +212,9 @@ interface Nextevolution {
 "
 `;
 
-exports[`jsondts JSON path to dts (C) 1`] = `""`;
+exports[`dts-from-json JSON path to dts (C) 1`] = `""`;
 
-exports[`jsondts JSON path to dts (C) 2`] = `
+exports[`dts-from-json JSON path to dts (C) 2`] = `
 "interface NobelPrize {
   prizes: Prize[];
 }
@@ -234,9 +234,9 @@ interface Laureate {
 "
 `;
 
-exports[`jsondts Use type keyword 1`] = `""`;
+exports[`dts-from-json Use type keyword 1`] = `""`;
 
-exports[`jsondts Use type keyword 2`] = `
+exports[`dts-from-json Use type keyword 2`] = `
 "type Senators = {
   meta: Meta;
   items: Item[];

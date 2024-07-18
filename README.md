@@ -1,15 +1,15 @@
-# jsondts
+# dts-from-json
 
 Command line utility to emit TypeScript type declaration files for JSON files powered by
 
 ### Installation and usage
 
 ```sh
-npm install -g jsondts
+npm install -g dts-from-json
 ```
 
 ```sh
-jsondts <json-file>
+dts-from-json <json-file>
 ```
 
 You can pass a local path or URL as `<json-file>`.
@@ -19,35 +19,35 @@ You can pass a local path or URL as `<json-file>`.
 The types are printed in stdout, to save to a file simply pipe to output to a file:
 
 ```sh
-jsondts <json-file> > <dts-dir>
+dts-from-json <json-file> > <dts-dir>
 ```
 
 ### Examples
 
 ```sh
-jsondts demo/json/senators.json
+dts-from-json demo/json/senators.json
 ```
 
 ```sh
-jsondts https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
+dts-from-json https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
 ```
 
 ```sh
-jsondts demo/json/senators.json > demo/types/senators.d.ts 
+dts-from-json demo/json/senators.json > demo/types/senators.d.ts 
 ```
 
 ```sh
-jsondts demo/json/senators.json --root Senators
+dts-from-json demo/json/senators.json --root Senators
 ```
 
 ```sh
-jsondts ./demo/json/senators.json --root Senators --types true
+dts-from-json ./demo/json/senators.json --root Senators --types true
 ```
 
 ### Usage via npx
 
 ```sh
-npx jsondts <json-file>
+npx dts-from-json <json-file>
 ```
 
 ### Customize the root type
@@ -56,13 +56,13 @@ The default root type is the CamelCase version of the json file name. For exampl
 
 
 ```sh
-$ jsondts <json-file> --root Senators
+$ dts-from-json <json-file> --root Senators
 ```
 
 ### Use `type` instead of `interface`
 
 ```sh
- $ jsondts <json-file> --types
+ $ dts-from-json <json-file> --types
 ```
 
 ### Known limmitations

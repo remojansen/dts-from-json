@@ -1,5 +1,5 @@
 {
-  "name": "jsondts",
+  "name": "dts-from-json",
   "version": "0.0.1-dev",
   "description": "Command line utility to emit TypeScript type declaration files for JSON files",
   "main": "dist/index.js",

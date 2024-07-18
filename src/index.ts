@@ -6,7 +6,7 @@ import { unexpectedError } from "./error.js";
 try {
 	const cli = meow(`
 		Usage
-		  $ jsondts <json-file>
+		  $ dts-from-json <json-file>
 	
 		Options
 		   Path to the JSON file
@@ -14,8 +14,8 @@ try {
 		  --types Use type instead of interface
 	
 		Examples
-		  $ jsondts ./demo/json/senators.json
-		  $ jsondts ./demo/json/senators.json --root Senators --types true
+		  $ dts-from-json ./demo/json/senators.json
+		  $ dts-from-json ./demo/json/senators.json --root Senators --types true
 	`, {
 		importMeta: import.meta,
 		flags: {
